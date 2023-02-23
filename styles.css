@@ -121,6 +121,7 @@ nav ul li a{
    .intoduction h1{
     color: var(--text1);
     font-size: 30px;
+    text-align: center;
    
     font-family: var(--font-family4);
    }
@@ -583,6 +584,9 @@ color: var(--button_bg4);
 .skillscontainer{
     background:none;
     font-family: var(--font-family8);
+}
+.skillheader{
+    text-align: center;
 }
 .skillscontainercard{
     
