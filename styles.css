@@ -135,6 +135,7 @@ nav ul li a {
   background-repeat: none;
   background-size: cover;
   background-position: center;
+  flex-wrap: wrap;
 }
 .intoduction {
   min-width: 270px;
@@ -142,6 +143,16 @@ nav ul li a {
   position: relative;
   padding: 1em;
 }
+.myimage{
+  width: 270px;
+  height: 80vh;
+  background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.488)),url('./images//IMG-20230504-WA0011.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+
+}
+
 .intoduction h4 {
   color: var(--button_bg);
   font-size: 30px;
@@ -154,6 +165,12 @@ nav ul li a {
   text-align: center;
 
   font-family: var(--font-family4);
+}
+@media (max-width:554px) {
+  .intoduction{
+    position: absolute;
+  }
+  
 }
 @media (min-width: 800px) {
   .intoduction h1 {
