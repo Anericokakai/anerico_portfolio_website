@@ -662,7 +662,7 @@ nav ul li a {
 .fa-node,
 .fa-css3,
 .fa-html5,
-.fa-php,
+.fa-java,
 .fa-php,
 .fa-react,
 .fa-square-js {
@@ -704,7 +704,7 @@ nav ul li a {
   border: var(--node_border);
   background-color: var(--node_bg);
 }
-.php {
+.java {
   border: var(--php_border);
   background-color: var(--php_bg);
 }
