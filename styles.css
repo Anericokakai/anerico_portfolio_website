@@ -83,6 +83,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 100vw;
 }
 
+
 /* ////////////////////////////////////// */
 /* navigation start */
 nav {
@@ -142,6 +143,7 @@ nav ul li a {
   max-width: 500px;
   position: relative;
   padding: 1em;
+  z-index: 1;
 }
 .myimage{
   width: 270px;
