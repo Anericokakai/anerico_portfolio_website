@@ -172,7 +172,7 @@ nav ul li a {
 .myimage{
   width: 350px;
   height: 80vh;
-  background:url('./images//rico.png');
+  background:url('./images/rico.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
