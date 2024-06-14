@@ -83,7 +83,30 @@ body::-webkit-scrollbar-thumb{
     background-color: var(--button_bg2);
     border-radius: 100vw;
 }
+.shorts{
+  border: 1px solid white;
 
+}
+.shortLinks{
+border: none;
+
+}
+
+#icons a i{
+  font-size: 30px;
+ 
+}
+#icons{
+  position: absolute;
+  bottom: -60%;
+  right: 30%;
+  display: flex;
+  gap: 20px;
+  
+  
+
+
+}
 
 /* ////////////////////////////////////// */
 /* navigation start */
@@ -147,12 +170,13 @@ nav ul li a {
   z-index: 1;
 }
 .myimage{
-  width: 270px;
+  width: 350px;
   height: 80vh;
-  background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.488)),url('./images//IMG-20230504-WA0011.jpg');
+  background:url('./images//rico.png');
   background-position: center;
-  background-size: cover;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 
 }
 
@@ -225,7 +249,7 @@ nav ul li a {
 .cards {
   background-color: var(--color3);
   width: 270px;
-  min-height: 270px;
+  min-height: 320px;
   border-radius: 5px;
   padding: 1em;
   font-family: var(--font-family3);
@@ -423,7 +447,7 @@ nav ul li a {
 /* eachproject image */
 .project1 {
   background: linear-gradient(rgba(0, 0, 0, 0.258), rgba(0, 0, 0, 0.386)),
-    url(./images/freeApi.png);
+    url(./images/jenga.png);
   background-position: center;
   background-size: cover;
 }
@@ -448,7 +472,7 @@ nav ul li a {
 }
 .project6 {
   background: linear-gradient(rgba(0, 0, 0, 0.258), rgba(0, 0, 0, 0.386)),
-    url(./images/mentorship.png);
+    url(./images/adhome.png);
   background-position: center;
   background-size: cover;
 }
@@ -500,6 +524,11 @@ background-size: cover;
   padding-top: 1em;
   font-family: var(--font-family3);
 }
+.projectcard{
+  line-height: 25px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .projectcard a {
   text-decoration: none;
 }
@@ -524,6 +553,14 @@ background-size: cover;
   .projectcard {
     width: 400px;
   }
+}
+.contMajor{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.contMinor{
+max-width: 1280px;
 }
 /* /////////////////////////////////////////////////// */
 /* footer sectuion */
@@ -584,6 +621,7 @@ background-size: cover;
 .socialicons i {
   margin-left: 1em;
   color: var(--mvcolor);
+ 
 }
 .copyright {
   font-family: var(--font-family3);
